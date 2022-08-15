@@ -53,10 +53,7 @@ class _chatscreenState extends State<chatscreen> {
         backgroundColor: primary,
         //  leading: ,
         centerTitle: true,
-
-        // leading: IconButton(
-        //     onPressed: (() => Navigator.pop(context)),
-        //     icon: Icon(Icons.arrow_back_ios)),
+        automaticallyImplyLeading: false,
         title: Text("DeltaME"),
         actions: [
           IconButton(
