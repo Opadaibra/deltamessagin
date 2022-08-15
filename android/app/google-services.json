@@ -1,0 +1,39 @@
+  {
+  "project_info": {
+    "project_number": "224534053338",
+    "project_id": "deltame-app",
+    "storage_bucket": "deltame-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224534053338:android:916948e75f4d0bb4cc00e3",
+        "android_client_info": {
+          "package_name": "com.example.deltamessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224534053338-u887q4ikoteik8nakm53p5no1fsqfbtq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYG8tTVjR6KaVm_ZUAA7vLn0nn2nDOB88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224534053338-u887q4ikoteik8nakm53p5no1fsqfbtq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
