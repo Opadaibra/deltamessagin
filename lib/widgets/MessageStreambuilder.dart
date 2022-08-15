@@ -20,7 +20,7 @@ class MessageStreambuilder extends StatelessWidget {
               backgroundColor: primary,
             );
           } else {
-            final newmessages = snapshot.data!.docs;
+            final newmessages = snapshot.data!.docs.reversed  ;
             for (var mesage in newmessages) {
               final messagetext = mesage.get('text');
               final messagsender = mesage.get('sender');
@@ -40,6 +40,7 @@ class MessageStreambuilder extends StatelessWidget {
           return Expanded(
               child: ListView(
                   // ignore: prefer_const_constructors
+                  reverse: true,
                   padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
                   children: messagewidgets));
         });

@@ -44,7 +44,7 @@ class _SigninState extends State<Signin> {
               text: email,
               focusedcolor: Colors.black,
               enabledcolor: primary,
-                  obscure: false,
+              obscure: false,
               textInputType: TextInputType.emailAddress,
             ),
             SizedBox(
